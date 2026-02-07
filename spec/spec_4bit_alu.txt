@@ -1,0 +1,117 @@
+4-BIT ALU SPECIFICATION (FLOW-COMPLETE)
+
+1. Overview
+This document defines the specification of a 4-bit Arithmetic Logic Unit (ALU)
+intended to pass through a complete RTL-to-GDSII ASIC flow, including synthesis,
+formal equivalence, power intent insertion, DFT insertion, and pre-layout STA.
+
+The ALU is functionally combinational. Clock and reset signals exist only to
+support DFT, formal verification, and timing analysis.
+
+---
+
+2. Interface
+
+Inputs:
+- A[3:0]        : 4-bit operand A
+- B[3:0]        : 4-bit operand B
+- ALU_CTRL[2:0] : Operation select
+- clk           : Clock input (DFT / STA only)
+- rst_n         : Active-low reset (DFT requirement)
+
+Outputs:
+- RESULT[3:0]   : 4-bit ALU result
+- CARRY_OUT     : Carry-out for ADD and SUB operations
+- ZERO          : Asserted when RESULT == 4'b0000
+- OVERFLOW      : Signed overflow indicator
+
+---
+
+3. Operation Encoding
+
+ALU_CTRL | Operation | Description
+--------------------------------------------
+000      | ADD       | RESULT = A + B
+001      | SUB       | RESULT = A - B
+010      | AND       | RESULT = A & B
+011      | OR        | RESULT = A | B
+100      | XOR       | RESULT = A ^ B
+101      | SLT       | RESULT = 1 if signed(A) < signed(B), else 0
+110      | PASS_A    | RESULT = A
+111      | PASS_B    | RESULT = B
+
+All operations are purely combinational.
+
+---
+
+4. Arithmetic Behavior
+
+- Addition and subtraction use 2's complement arithmetic.
+- SUB is implemented as A + (~B + 1).
+- CARRY_OUT reflects the MSB carry-out for ADD and SUB only.
+- OVERFLOW is asserted when signed overflow occurs:
+  - ADD: operands same sign, result different sign
+  - SUB: operands different sign, result sign differs from A
+
+---
+
+5. Flag Behavior
+
+- ZERO is asserted when RESULT == 4'b0000.
+- Flags are combinational and updated for all operations.
+- For non-arithmetic operations, CARRY_OUT and OVERFLOW are deasserted.
+
+---
+
+6. Timing Intent
+
+- Design is functionally combinational.
+- A virtual clock is defined for STA purposes.
+
+Initial timing target:
+- Clock period: 5 ns (pre-layout, ideal clocks)
+
+No sequential logic is used for functional operation.
+
+---
+
+7. Power Intent
+
+- Single power domain.
+- Supplies:
+  - VDD (power)
+  - VSS (ground)
+- No power gating.
+- No isolation or level shifters.
+
+---
+
+8. DFT Requirements
+
+- clk is used as scan clock.
+- rst_n must be scannable.
+- No combinational loops.
+- Functional behavior must remain unchanged after scan insertion.
+
+---
+
+9. Verification Requirements
+
+- RTL simulation must validate all operations and corner cases.
+- Formal CEC must prove RTL and synthesized netlist equivalence.
+- Formal SEC must prove pre-DFT and post-DFT equivalence.
+- Zero mismatches are allowed.
+
+---
+
+10. Implementation Constraints
+
+- Fully synthesizable Verilog.
+- No latches.
+- No inferred memories.
+- Deterministic logic only.
+
+---
+
+End of Specification
+

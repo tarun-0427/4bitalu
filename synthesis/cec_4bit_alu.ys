@@ -1,0 +1,18 @@
+# Read RTL (golden)
+read_verilog ../rtl/4bitalu.v
+rename alu_4bit gold
+proc; opt
+
+# Read synthesized netlist (treat cells as blackboxes)
+read_verilog -lib 4bitalu_net.v
+
+rename alu_4bit gate
+
+# Build equivalence miter
+equiv_make gold gate equiv
+hierarchy -top equiv
+
+# Run equivalence checking
+equiv_simple
+equiv_status
+
