@@ -1,18 +1,24 @@
+# Load standard cell library (for gate cells)
+read_liberty /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
 # Read RTL (golden)
 read_verilog ../rtl/4bitalu.v
+prep -top alu_4bit
 rename alu_4bit gold
-proc; opt
 
-# Read synthesized netlist (treat cells as blackboxes)
-read_verilog -lib 4bitalu_net.v
+# Lower RTL to pure combinational logic
+proc
+opt
 
+# Read synthesized netlist (gate)
+read_verilog 4bitalu_net.v
+prep -top alu_4bit
 rename alu_4bit gate
 
 # Build equivalence miter
 equiv_make gold gate equiv
-hierarchy -top equiv
+prep -top equiv
 
-# Run equivalence checking
+# Run equivalence
 equiv_simple
 equiv_status
-
