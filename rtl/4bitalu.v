@@ -83,16 +83,16 @@ module alu_4bit (
         ZERO = (RESULT == 4'b0000);
     end
 
+// Assertions go HERE (outside logic, inside module)
+// ====================================================
 `ifdef ASSERTIONS
-    // ------------------------------------------------
-    // Assertions (SEC / formal / simulation)
-    // ------------------------------------------------
+// Assertions (SEC / formal / simulation)
 
-    // ALU_CTRL must never be X/Z
-    always @(*) begin
-        assert (^ALU_CTRL !== 1'bX)
-            else $error("ALU_CTRL has X/Z");
-    end
+// ALU_CTRL must never be X/Z
+always @(*) begin
+    assert (^ALU_CTRL !== 1'bX)
+        else $error("ALU_CTRL has X/Z");
+end
 
     // RESULT must never be X
     always @(*) begin
