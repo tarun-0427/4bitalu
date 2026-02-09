@@ -27,7 +27,8 @@ module alu_4bit (
     // Internal extended signals
     reg [4:0] sum_ext;
     reg [4:0] sub_ext;
-
+         
+   assign scan_out = scan_in;
     // ------------------------------------------------
     // Combinational ALU
     // ------------------------------------------------
