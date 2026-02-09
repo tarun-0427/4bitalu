@@ -12,7 +12,3 @@ create_supply_net VSS
 # Connect supplies
 connect_supply_net VDD -ports VDD
 connect_supply_net VSS -ports VSS
-
-# Set domain supplies
-set_domain_supply_net PD_ALU -primary_power_net VDD -primary_ground_net VSS
-

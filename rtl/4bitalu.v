@@ -17,9 +17,13 @@ module alu_4bit (
     output reg  [3:0] RESULT,
     output reg        CARRY_OUT,
     output reg        OVERFLOW,
-    output reg        ZERO
-);
+    output reg        ZERO,
+    
+    input  wire scan_enable,
+    input  wire scan_in,
+    output wire scan_out
 
+);
     // Internal extended signals
     reg [4:0] sum_ext;
     reg [4:0] sub_ext;
