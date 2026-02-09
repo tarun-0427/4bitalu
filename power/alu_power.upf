@@ -1,0 +1,18 @@
+# Create top power domain
+create_power_domain PD_ALU -elements {alu_4bit}
+
+# Define supply ports
+create_supply_port VDD
+create_supply_port VSS
+
+# Create supply nets
+create_supply_net VDD
+create_supply_net VSS
+
+# Connect supplies
+connect_supply_net VDD -ports VDD
+connect_supply_net VSS -ports VSS
+
+# Set domain supplies
+set_domain_supply_net PD_ALU -primary_power_net VDD -primary_ground_net VSS
+
