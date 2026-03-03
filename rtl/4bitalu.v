@@ -6,7 +6,7 @@
 // - Assertion hooks included
 // - UPF/CPF & DFT friendly
 //====================================================
-
+`timescale 1ns/1ps
 module alu_4bit (
     // Functional inputs
     input  wire [3:0] A,
@@ -19,16 +19,12 @@ module alu_4bit (
     output reg        OVERFLOW,
     output reg        ZERO,
     
-    input  wire scan_enable,
-    input  wire scan_in,
-    output wire scan_out
 
 );
     // Internal extended signals
     reg [4:0] sum_ext;
     reg [4:0] sub_ext;
          
-   assign scan_out = scan_in;
     // ------------------------------------------------
     // Combinational ALU
     // ------------------------------------------------
