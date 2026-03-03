@@ -2,7 +2,7 @@
 
 (* top =  1  *)
 (* src = "../rtl/4bitalu.v:10.1-105.10" *)
-module alu_4bit(A, B, ALU_CTRL, RESULT, CARRY_OUT, OVERFLOW, ZERO, scan_enable, scan_in, scan_out);
+module alu_4bit(A, B, ALU_CTRL, RESULT, CARRY_OUT, OVERFLOW, ZERO);
   (* src = "../rtl/4bitalu.v:12.23-12.24" *)
   input [3:0] A;
   wire [3:0] A;
@@ -24,15 +24,6 @@ module alu_4bit(A, B, ALU_CTRL, RESULT, CARRY_OUT, OVERFLOW, ZERO, scan_enable, 
   (* src = "../rtl/4bitalu.v:20.23-20.27" *)
   output ZERO;
   wire ZERO;
-  (* src = "../rtl/4bitalu.v:22.17-22.28" *)
-  input scan_enable;
-  wire scan_enable;
-  (* src = "../rtl/4bitalu.v:23.17-23.24" *)
-  input scan_in;
-  wire scan_in;
-  (* src = "../rtl/4bitalu.v:24.17-24.25" *)
-  output scan_out;
-  wire scan_out;
   wire _000_;
   wire _001_;
   wire _002_;
@@ -740,7 +731,6 @@ module alu_4bit(A, B, ALU_CTRL, RESULT, CARRY_OUT, OVERFLOW, ZERO, scan_enable, 
     .B2(_221_),
     .Y(_143_)
   );
-  assign scan_out = scan_in;
   assign _139_ = B[0];
   assign _135_ = A[0];
   assign _134_ = ALU_CTRL[2];
