@@ -1,0 +1,240 @@
+* NGSPICE file created from alu_4bit.ext - technology: TECHNAME
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o21ai_0 abstract view
+.subckt sky130_fd_sc_hd__o21ai_0 A1 A2 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__xor2_1 abstract view
+.subckt sky130_fd_sc_hd__xor2_1 A B VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor2b_1 abstract view
+.subckt sky130_fd_sc_hd__nor2b_1 A B_N VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__and3_1 abstract view
+.subckt sky130_fd_sc_hd__and3_1 A B C VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor4_1 abstract view
+.subckt sky130_fd_sc_hd__nor4_1 A B C D VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o21bai_1 abstract view
+.subckt sky130_fd_sc_hd__o21bai_1 A1 A2 B1_N VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o211ai_1 abstract view
+.subckt sky130_fd_sc_hd__o211ai_1 A1 A2 B1 C1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand4_1 abstract view
+.subckt sky130_fd_sc_hd__nand4_1 A B C D VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or3_1 abstract view
+.subckt sky130_fd_sc_hd__or3_1 A B C VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a32oi_1 abstract view
+.subckt sky130_fd_sc_hd__a32oi_1 A1 A2 A3 B1 B2 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a31oi_1 abstract view
+.subckt sky130_fd_sc_hd__a31oi_1 A1 A2 A3 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21oi_1 abstract view
+.subckt sky130_fd_sc_hd__a21oi_1 A1 A2 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand3_1 abstract view
+.subckt sky130_fd_sc_hd__nand3_1 A B C VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o22ai_1 abstract view
+.subckt sky130_fd_sc_hd__o22ai_1 A1 A2 B1 B2 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__lpflow_inputiso1p_1 abstract view
+.subckt sky130_fd_sc_hd__lpflow_inputiso1p_1 A SLEEP VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a21o_1 abstract view
+.subckt sky130_fd_sc_hd__a21o_1 A1 A2 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand2_1 abstract view
+.subckt sky130_fd_sc_hd__nand2_1 A B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a2111oi_0 abstract view
+.subckt sky130_fd_sc_hd__a2111oi_0 A1 A2 B1 C1 D1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand2b_1 abstract view
+.subckt sky130_fd_sc_hd__nand2b_1 A_N B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__or3b_1 abstract view
+.subckt sky130_fd_sc_hd__or3b_1 A B C_N VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__lpflow_isobufsrc_1 abstract view
+.subckt sky130_fd_sc_hd__lpflow_isobufsrc_1 A SLEEP VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor2_1 abstract view
+.subckt sky130_fd_sc_hd__nor2_1 A B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nand3b_1 abstract view
+.subckt sky130_fd_sc_hd__nand3b_1 A_N B C VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o311ai_0 abstract view
+.subckt sky130_fd_sc_hd__o311ai_0 A1 A2 A3 B1 C1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a22oi_1 abstract view
+.subckt sky130_fd_sc_hd__a22oi_1 A1 A2 B1 B2 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor3_1 abstract view
+.subckt sky130_fd_sc_hd__nor3_1 A B C VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o31ai_1 abstract view
+.subckt sky130_fd_sc_hd__o31ai_1 A1 A2 A3 B1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__xnor2_1 abstract view
+.subckt sky130_fd_sc_hd__xnor2_1 A B VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__and2_0 abstract view
+.subckt sky130_fd_sc_hd__and2_0 A B VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__a211oi_1 abstract view
+.subckt sky130_fd_sc_hd__a211oi_1 A1 A2 B1 C1 VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__o31a_1 abstract view
+.subckt sky130_fd_sc_hd__o31a_1 A1 A2 A3 B1 VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkinv_1 abstract view
+.subckt sky130_fd_sc_hd__clkinv_1 A VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__nor3b_1 abstract view
+.subckt sky130_fd_sc_hd__nor3b_1 A B C_N VGND VNB VPB VPWR Y
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__mux2i_1 abstract view
+.subckt sky130_fd_sc_hd__mux2i_1 A0 A1 S VGND VNB VPB VPWR Y
+.ends
+
+.subckt alu_4bit ALU_CTRL[0] ALU_CTRL[1] ALU_CTRL[2] A[0] A[1] A[2] A[3] B[0] B[1]
++ B[2] B[3] CARRY_OUT OVERFLOW RESULT[0] RESULT[1] RESULT[2] RESULT[3] ZERO
+X_294_ _285_/B _283_/B _284_/A _295_/VGND SUB _300_/VPB _300_/VPWR _294_/Y sky130_fd_sc_hd__o21ai_0
+X_277_ A[3] _277_/B _300_/VGND SUB _300_/VPB _300_/VPWR _278_/B sky130_fd_sc_hd__xor2_1
+X_293_ _293_/A _283_/B _300_/VGND SUB _300_/VPB _300_/VPWR _293_/Y sky130_fd_sc_hd__nor2b_1
+X_276_ B[3] _276_/B _300_/VGND SUB _291_/VPB _291_/VPWR _277_/B sky130_fd_sc_hd__xor2_1
+X_259_ A[2] _276_/B _259_/C _290_/VGND SUB _291_/VPB _291_/VPWR _259_/X sky130_fd_sc_hd__and3_1
+X_292_ RESULT[0] RESULT[1] RESULT[2] RESULT[3] _292_/VGND SUB _292_/VPB _292_/VPWR
++ ZERO sky130_fd_sc_hd__nor4_1
+X_275_ _256_/Y _260_/Y _259_/X _275_/VGND SUB _275_/VPB _275_/VPWR _278_/A sky130_fd_sc_hd__o21bai_1
+X_291_ _228_/Y _296_/S _284_/Y _290_/X _300_/VGND SUB _291_/VPB _291_/VPWR RESULT[3]
++ sky130_fd_sc_hd__o211ai_1
+X_258_ B[0] B[1] B[2] _290_/VGND SUB _260_/VPB _260_/VPWR _259_/C sky130_fd_sc_hd__o21ai_0
+X_274_ _274_/A _274_/B _274_/C _274_/D _282_/VGND SUB _274_/VPB _274_/VPWR RESULT[2]
++ sky130_fd_sc_hd__nand4_1
+X_290_ _290_/A _290_/B _290_/C _290_/VGND SUB _291_/VPB _291_/VPWR _290_/X sky130_fd_sc_hd__and3_1
+X_257_ B[0] B[1] B[2] _290_/VGND SUB _260_/VPB _260_/VPWR _276_/B sky130_fd_sc_hd__or3_1
+X_256_ A[1] _238_/B _238_/C _247_/B _247_/A _256_/VGND SUB _256_/VPB _256_/VPWR _256_/Y
++ sky130_fd_sc_hd__a32oi_1
+X_273_ ALU_CTRL[2] A[2] _269_/C _272_/Y _282_/VGND SUB _274_/VPB _274_/VPWR _274_/D
++ sky130_fd_sc_hd__a31oi_1
+X_239_ _238_/B _238_/C A[1] _256_/VGND SUB _256_/VPB _256_/VPWR _239_/Y sky130_fd_sc_hd__a21oi_1
+X_255_ _255_/A _255_/B _255_/C _282_/VGND SUB _255_/VPB _255_/VPWR RESULT[1] sky130_fd_sc_hd__nand3_1
+X_272_ A[2] _287_/B _285_/A _265_/Y _282_/VGND SUB _274_/VPB _274_/VPWR _272_/Y sky130_fd_sc_hd__o22ai_1
+X_237_ B[0] B[1] _256_/VGND SUB _261_/VPB _261_/VPWR _238_/C sky130_fd_sc_hd__lpflow_inputiso1p_1
+X_254_ ALU_CTRL[2] A[1] _269_/C _284_/A _247_/Y _292_/VGND SUB _255_/VPB _255_/VPWR
++ _255_/C sky130_fd_sc_hd__a32oi_1
+X_238_ A[1] _238_/B _238_/C _243_/VGND SUB _256_/VPB _256_/VPWR _238_/X sky130_fd_sc_hd__and3_1
+X_271_ _248_/B _269_/Y _270_/Y _282_/VGND SUB _282_/VPB _282_/VPWR _274_/C sky130_fd_sc_hd__a21o_1
+X_236_ B[0] B[1] _256_/VGND SUB _261_/VPB _261_/VPWR _238_/B sky130_fd_sc_hd__nand2_1
+X_253_ B[1] _231_/X _248_/Y _249_/Y _252_/Y _282_/VGND SUB _282_/VPB _282_/VPWR _255_/B
++ sky130_fd_sc_hd__a2111oi_0
+X_270_ A[2] _225_/Y B[2] _282_/VGND SUB _282_/VPB _282_/VPWR _270_/Y sky130_fd_sc_hd__a21oi_1
+X_235_ _235_/A _235_/B _235_/C _290_/VGND SUB _292_/VPB _292_/VPWR RESULT[0] sky130_fd_sc_hd__nand3_1
+X_252_ _247_/B _285_/A _251_/Y _242_/Y _282_/VGND SUB _282_/VPB _282_/VPWR _252_/Y
++ sky130_fd_sc_hd__o22ai_1
+X_234_ B[0] _231_/X _223_/Y _292_/VGND SUB _292_/VPB _292_/VPWR _235_/C sky130_fd_sc_hd__a21oi_1
+X_251_ ALU_CTRL[2] _269_/C _251_/VGND SUB _282_/VPB _282_/VPWR _251_/Y sky130_fd_sc_hd__nand2b_1
+X_250_ ALU_CTRL[0] ALU_CTRL[1] ALU_CTRL[2] _290_/VGND SUB _297_/VPB _297_/VPWR _285_/A
++ sky130_fd_sc_hd__or3b_1
+X_233_ B[0] A[0] _225_/Y _229_/Y _292_/VGND SUB _292_/VPB _292_/VPWR _235_/B sky130_fd_sc_hd__o22ai_1
+X_232_ B[0] ALU_CTRL[2] _269_/C A[0] _292_/VGND SUB _292_/VPB _292_/VPWR _235_/A sky130_fd_sc_hd__o211ai_1
+X_300_ _293_/A _294_/Y _298_/Y _299_/Y _300_/VGND SUB _300_/VPB _300_/VPWR CARRY_OUT
++ sky130_fd_sc_hd__o22ai_1
+X_231_ ALU_CTRL[2] ALU_CTRL[0] ALU_CTRL[1] _290_/VGND SUB _292_/VPB _292_/VPWR _231_/X
++ sky130_fd_sc_hd__and3_1
+X_230_ ALU_CTRL[1] ALU_CTRL[0] _290_/VGND SUB _292_/VPB _292_/VPWR _269_/C sky130_fd_sc_hd__lpflow_isobufsrc_1
+X_289_ B[3] _231_/X _287_/Y _300_/VGND SUB _291_/VPB _291_/VPWR _290_/C sky130_fd_sc_hd__a21oi_1
+X_288_ ALU_CTRL[2] B[3] A[3] _269_/C _290_/VGND SUB _291_/VPB _291_/VPWR _290_/B sky130_fd_sc_hd__o211ai_1
+X_287_ A[3] _287_/B _290_/VGND SUB _291_/VPB _291_/VPWR _287_/Y sky130_fd_sc_hd__nor2_1
+X_286_ B[3] A[3] _225_/Y _285_/Y _290_/VGND SUB _291_/VPB _291_/VPWR _290_/A sky130_fd_sc_hd__o22ai_1
+X_269_ ALU_CTRL[2] A[2] _269_/C _282_/VGND SUB _282_/VPB _282_/VPWR _269_/Y sky130_fd_sc_hd__nand3b_1
+X_285_ _285_/A _285_/B _300_/VGND SUB _297_/VPB _297_/VPWR _285_/Y sky130_fd_sc_hd__nor2_1
+X_268_ _248_/C _265_/Y _266_/Y _267_/Y _284_/A _282_/VGND SUB _282_/VPB _282_/VPWR
++ _274_/B sky130_fd_sc_hd__o311ai_0
+X_284_ _284_/A _284_/B _284_/VGND SUB _300_/VPB _300_/VPWR _284_/Y sky130_fd_sc_hd__nand2_1
+X_267_ _248_/C _266_/Y _265_/Y _282_/VGND SUB _267_/VPB _267_/VPWR _267_/Y sky130_fd_sc_hd__o21ai_0
+X_283_ _295_/B _283_/B _300_/VGND SUB _300_/VPB _300_/VPWR _284_/B sky130_fd_sc_hd__xor2_1
+X_266_ B[0] A[0] B[1] A[1] _292_/VGND SUB _267_/VPB _267_/VPWR _266_/Y sky130_fd_sc_hd__a22oi_1
+X_249_ A[1] _287_/B _282_/VGND SUB _255_/VPB _255_/VPWR _249_/Y sky130_fd_sc_hd__nor2_1
+X_248_ ALU_CTRL[2] _248_/B _248_/C _248_/VGND SUB _282_/VPB _282_/VPWR _248_/Y sky130_fd_sc_hd__nor3_1
+X_282_ _248_/C _265_/Y _266_/Y _264_/Y _282_/VGND SUB _282_/VPB _282_/VPWR _283_/B
++ sky130_fd_sc_hd__o31ai_1
+X_265_ B[2] A[2] _265_/VGND SUB _282_/VPB _282_/VPWR _265_/Y sky130_fd_sc_hd__xnor2_1
+X_281_ _293_/A _285_/B _300_/VGND SUB _300_/VPB _300_/VPWR _295_/B sky130_fd_sc_hd__nor2_1
+X_247_ _247_/A _247_/B _256_/VGND SUB _256_/VPB _256_/VPWR _247_/Y sky130_fd_sc_hd__xnor2_1
+X_264_ B[2] A[2] _264_/VGND SUB _282_/VPB _282_/VPWR _264_/Y sky130_fd_sc_hd__nand2_1
+X_263_ _263_/A _263_/B _263_/VGND SUB _275_/VPB _275_/VPWR _274_/A sky130_fd_sc_hd__nand2_1
+X_246_ ALU_CTRL[2] ALU_CTRL[0] ALU_CTRL[1] _300_/VGND SUB _297_/VPB _297_/VPWR _284_/A
++ sky130_fd_sc_hd__nor3_1
+X_280_ B[3] A[3] _300_/VGND SUB _297_/VPB _297_/VPWR _285_/B sky130_fd_sc_hd__and2_0
+X_229_ ALU_CTRL[2] ALU_CTRL[0] ALU_CTRL[1] _247_/A _292_/VGND SUB _292_/VPB _292_/VPWR
++ _229_/Y sky130_fd_sc_hd__a211oi_1
+X_262_ _256_/Y _259_/X _260_/Y _295_/A _275_/VGND SUB _275_/VPB _275_/VPWR _263_/B
++ sky130_fd_sc_hd__o31a_1
+X_228_ _295_/A _300_/VGND SUB _291_/VPB _291_/VPWR _228_/Y sky130_fd_sc_hd__clkinv_1
+X_261_ _259_/X _260_/Y _256_/Y _275_/VGND SUB _261_/VPB _261_/VPWR _263_/A sky130_fd_sc_hd__o21ai_0
+X_245_ _245_/A _245_/B _256_/VGND SUB _260_/VPB _260_/VPWR _255_/A sky130_fd_sc_hd__nand2_1
+X_227_ ALU_CTRL[2] ALU_CTRL[1] ALU_CTRL[0] _290_/VGND SUB _297_/VPB _297_/VPWR _295_/A
++ sky130_fd_sc_hd__nor3b_1
+X_260_ _276_/B _259_/C A[2] _290_/VGND SUB _260_/VPB _260_/VPWR _260_/Y sky130_fd_sc_hd__a21oi_1
+X_244_ _247_/A _247_/B _228_/Y _282_/VGND SUB _256_/VPB _256_/VPWR _245_/B sky130_fd_sc_hd__a21oi_1
+X_226_ B[0] A[0] _292_/VGND SUB _274_/VPB _274_/VPWR _247_/A sky130_fd_sc_hd__and2_0
+X_243_ B[1] A[1] _243_/VGND SUB _243_/VPB _243_/VPWR _247_/B sky130_fd_sc_hd__xnor2_1
+X_242_ B[1] A[1] _242_/VGND SUB _282_/VPB _282_/VPWR _242_/Y sky130_fd_sc_hd__nand2_1
+X_224_ ALU_CTRL[0] ALU_CTRL[1] _290_/VGND SUB _292_/VPB _292_/VPWR _248_/B sky130_fd_sc_hd__nand2_1
+X_241_ B[1] A[1] _282_/VGND SUB _267_/VPB _267_/VPWR _248_/C sky130_fd_sc_hd__nor2_1
+X_225_ ALU_CTRL[2] _248_/B _282_/VGND SUB _282_/VPB _282_/VPWR _225_/Y sky130_fd_sc_hd__nor2_1
+X_240_ _238_/X _239_/Y _247_/A _256_/VGND SUB _256_/VPB _256_/VPWR _245_/A sky130_fd_sc_hd__o21bai_1
+X_223_ A[0] _287_/B _292_/VGND SUB _274_/VPB _274_/VPWR _223_/Y sky130_fd_sc_hd__nor2_1
+X_299_ A[3] _277_/B _295_/A _300_/VGND SUB _300_/VPB _300_/VPWR _299_/Y sky130_fd_sc_hd__o21ai_0
+X_222_ ALU_CTRL[1] ALU_CTRL[0] ALU_CTRL[2] _290_/VGND SUB _297_/VPB _297_/VPWR _287_/B
++ sky130_fd_sc_hd__nand3b_1
+X_298_ A[3] _277_/B _278_/A _298_/VGND SUB _300_/VPB _300_/VPWR _298_/Y sky130_fd_sc_hd__a21oi_1
+X_297_ _293_/Y _294_/Y _295_/Y _296_/Y _300_/VGND SUB _297_/VPB _297_/VPWR OVERFLOW
++ sky130_fd_sc_hd__o22ai_1
+X_279_ B[3] A[3] _279_/VGND SUB _300_/VPB _300_/VPWR _293_/A sky130_fd_sc_hd__nor2_1
+X_296_ B[3] A[3] _296_/S _300_/VGND SUB _300_/VPB _300_/VPWR _296_/Y sky130_fd_sc_hd__mux2i_1
+X_295_ _295_/A _295_/B _295_/VGND SUB _300_/VPB _300_/VPWR _295_/Y sky130_fd_sc_hd__nand2_1
+X_278_ _278_/A _278_/B _300_/VGND SUB _300_/VPB _300_/VPWR _296_/S sky130_fd_sc_hd__xnor2_1
+.ends
+
